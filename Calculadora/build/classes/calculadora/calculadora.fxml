@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="403.0" prefWidth="257.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora.CalculadoraController">
+   <children>
+      <Label layoutX="86.0" layoutY="14.0" text="CALCULADORA" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="10.0" />
+         </font>
+      </Label>
+      <Button fx:id="seteButton" layoutX="13.0" layoutY="164.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="7" />
+      <Button fx:id="quatroButton" layoutX="13.0" layoutY="222.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="4" />
+      <Button fx:id="umButton" layoutX="13.0" layoutY="279.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="1" />
+      <Button fx:id="zeroButton" layoutX="13.0" layoutY="337.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="0" />
+      <Button fx:id="oitoButton" layoutX="73.0" layoutY="164.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="8" />
+      <Button fx:id="cincoButton" layoutX="73.0" layoutY="222.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="5" />
+      <Button fx:id="doisButton" layoutX="73.0" layoutY="279.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="2" />
+      <Button fx:id="pontoButton" layoutX="73.0" layoutY="337.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="114.0" text="." />
+      <Button fx:id="noveButton" layoutX="132.0" layoutY="164.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="9" />
+      <Button fx:id="seisButton" layoutX="132.0" layoutY="222.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="6" />
+      <Button fx:id="tresButton" layoutX="132.0" layoutY="279.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="3" />
+      <Button fx:id="subtracaoButton" layoutX="192.0" layoutY="164.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="-" />
+      <Button fx:id="somaButton" layoutX="192.0" layoutY="222.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="+" />
+      <Button fx:id="igualButton" layoutX="192.0" layoutY="281.0" mnemonicParsing="false" prefHeight="107.0" prefWidth="52.0" text="=" />
+      <Button fx:id="apagarButton" layoutX="13.0" layoutY="105.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="114.0" text="C" />
+      <Button fx:id="divisaoButton" layoutX="132.0" layoutY="105.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="/" />
+      <Button fx:id="mutiplicacaoButton" layoutX="192.0" layoutY="105.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="52.0" text="*" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="66.0" layoutX="13.0" layoutY="31.0" stroke="#aeaeae" strokeType="INSIDE" width="231.0" />
+      <Text fx:id="telaText" layoutX="19.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" wrappingWidth="220.13671875">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="tela2Text" layoutX="20.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" wrappingWidth="220.13671875">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
